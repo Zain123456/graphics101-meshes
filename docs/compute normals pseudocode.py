@@ -20,7 +20,7 @@ def compute_normals_without_halfedge():
     for face in faces:
         n = face normal
         for v in face:
-            n[ v index ] += face normal
+            normals[ v index ] += face normal
     
     ## normalize
     for n in normals:
